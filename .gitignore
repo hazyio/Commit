@@ -1,0 +1,34 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+build/
+/captures
+.externalNativeBuild
+.cxx
+.kotlin/
+
+# Android Studio project files
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/gradle.xml
+.idea/misc.xml
+.idea/vcs.xml
+.idea/deploymentTargetDropDown.xml
+.idea/deploymentTargetSelector.xml
+.idea/kotlinc.xml
+.idea/appInsightsSettings.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Signing
+*.jks
+*.keystore
+key.properties
+
+# Build artifacts (belt-and-suspenders, in case build/ pattern is ever overridden)
+*.apk
+*.aab
+*.ap_
